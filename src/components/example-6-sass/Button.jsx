@@ -1,6 +1,9 @@
-const Button = ({ buttonText }) => {
-    return <button>{buttonText}</button>;
-  };
+import './button.sass'
+
+const Button6 = ({ buttonText }) => {
+
+    return <button className='sassy-button'>{buttonText}</button>;
+    
+};
   
-  export default Button;
-  
+export default Button6;
